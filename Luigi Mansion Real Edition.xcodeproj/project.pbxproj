@@ -1,0 +1,631 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		421AD8532CB0019D00BD6B17 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 421AD8522CB0019D00BD6B17 /* AppDelegate.swift */; };
+		421AD8552CB0019D00BD6B17 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 421AD8542CB0019D00BD6B17 /* GameScene.sks */; };
+		421AD8572CB0019D00BD6B17 /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = 421AD8562CB0019D00BD6B17 /* Actions.sks */; };
+		421AD8592CB0019D00BD6B17 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 421AD8582CB0019D00BD6B17 /* GameScene.swift */; };
+		421AD85B2CB0019D00BD6B17 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 421AD85A2CB0019D00BD6B17 /* GameViewController.swift */; };
+		421AD85E2CB0019D00BD6B17 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 421AD85C2CB0019D00BD6B17 /* Main.storyboard */; };
+		421AD8602CB001A000BD6B17 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 421AD85F2CB001A000BD6B17 /* Assets.xcassets */; };
+		421AD8632CB001A000BD6B17 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 421AD8612CB001A000BD6B17 /* LaunchScreen.storyboard */; };
+		421AD86D2CB001A000BD6B17 /* Luigi_Mansion_Real_EditionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 421AD86C2CB001A000BD6B17 /* Luigi_Mansion_Real_EditionTests.swift */; };
+		421AD8772CB001A000BD6B17 /* Luigi_Mansion_Real_EditionUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 421AD8762CB001A000BD6B17 /* Luigi_Mansion_Real_EditionUITests.swift */; };
+		421AD8792CB001A000BD6B17 /* Luigi_Mansion_Real_EditionUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 421AD8782CB001A000BD6B17 /* Luigi_Mansion_Real_EditionUITestsLaunchTests.swift */; };
+		421AD8862CB003DD00BD6B17 /* QRCodeScannerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 421AD8852CB003DD00BD6B17 /* QRCodeScannerViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		421AD8692CB001A000BD6B17 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 421AD8472CB0019D00BD6B17 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 421AD84E2CB0019D00BD6B17;
+			remoteInfo = "Luigi Mansion Real Edition";
+		};
+		421AD8732CB001A000BD6B17 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 421AD8472CB0019D00BD6B17 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 421AD84E2CB0019D00BD6B17;
+			remoteInfo = "Luigi Mansion Real Edition";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		421AD84F2CB0019D00BD6B17 /* Luigi Mansion Real Edition.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Luigi Mansion Real Edition.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		421AD8522CB0019D00BD6B17 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		421AD8542CB0019D00BD6B17 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		421AD8562CB0019D00BD6B17 /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
+		421AD8582CB0019D00BD6B17 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		421AD85A2CB0019D00BD6B17 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		421AD85D2CB0019D00BD6B17 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		421AD85F2CB001A000BD6B17 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		421AD8622CB001A000BD6B17 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		421AD8682CB001A000BD6B17 /* Luigi Mansion Real EditionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Luigi Mansion Real EditionTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		421AD86C2CB001A000BD6B17 /* Luigi_Mansion_Real_EditionTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Luigi_Mansion_Real_EditionTests.swift; sourceTree = "<group>"; };
+		421AD8722CB001A000BD6B17 /* Luigi Mansion Real EditionUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Luigi Mansion Real EditionUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		421AD8762CB001A000BD6B17 /* Luigi_Mansion_Real_EditionUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Luigi_Mansion_Real_EditionUITests.swift; sourceTree = "<group>"; };
+		421AD8782CB001A000BD6B17 /* Luigi_Mansion_Real_EditionUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Luigi_Mansion_Real_EditionUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		421AD8852CB003DD00BD6B17 /* QRCodeScannerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRCodeScannerViewController.swift; sourceTree = "<group>"; };
+		B3F337F02CB18E9400792DC9 /* Luigi-Mansion-Real-Edition-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Luigi-Mansion-Real-Edition-Info.plist"; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		421AD84C2CB0019D00BD6B17 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		421AD8652CB001A000BD6B17 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		421AD86F2CB001A000BD6B17 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		421AD8462CB0019D00BD6B17 = {
+			isa = PBXGroup;
+			children = (
+				421AD8512CB0019D00BD6B17 /* Luigi Mansion Real Edition */,
+				421AD86B2CB001A000BD6B17 /* Luigi Mansion Real EditionTests */,
+				421AD8752CB001A000BD6B17 /* Luigi Mansion Real EditionUITests */,
+				421AD8502CB0019D00BD6B17 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		421AD8502CB0019D00BD6B17 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				421AD84F2CB0019D00BD6B17 /* Luigi Mansion Real Edition.app */,
+				421AD8682CB001A000BD6B17 /* Luigi Mansion Real EditionTests.xctest */,
+				421AD8722CB001A000BD6B17 /* Luigi Mansion Real EditionUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		421AD8512CB0019D00BD6B17 /* Luigi Mansion Real Edition */ = {
+			isa = PBXGroup;
+			children = (
+				B3F337F02CB18E9400792DC9 /* Luigi-Mansion-Real-Edition-Info.plist */,
+				421AD8522CB0019D00BD6B17 /* AppDelegate.swift */,
+				421AD8542CB0019D00BD6B17 /* GameScene.sks */,
+				421AD8562CB0019D00BD6B17 /* Actions.sks */,
+				421AD8582CB0019D00BD6B17 /* GameScene.swift */,
+				421AD85A2CB0019D00BD6B17 /* GameViewController.swift */,
+				421AD85C2CB0019D00BD6B17 /* Main.storyboard */,
+				421AD8852CB003DD00BD6B17 /* QRCodeScannerViewController.swift */,
+				421AD85F2CB001A000BD6B17 /* Assets.xcassets */,
+				421AD8612CB001A000BD6B17 /* LaunchScreen.storyboard */,
+			);
+			path = "Luigi Mansion Real Edition";
+			sourceTree = "<group>";
+		};
+		421AD86B2CB001A000BD6B17 /* Luigi Mansion Real EditionTests */ = {
+			isa = PBXGroup;
+			children = (
+				421AD86C2CB001A000BD6B17 /* Luigi_Mansion_Real_EditionTests.swift */,
+			);
+			path = "Luigi Mansion Real EditionTests";
+			sourceTree = "<group>";
+		};
+		421AD8752CB001A000BD6B17 /* Luigi Mansion Real EditionUITests */ = {
+			isa = PBXGroup;
+			children = (
+				421AD8762CB001A000BD6B17 /* Luigi_Mansion_Real_EditionUITests.swift */,
+				421AD8782CB001A000BD6B17 /* Luigi_Mansion_Real_EditionUITestsLaunchTests.swift */,
+			);
+			path = "Luigi Mansion Real EditionUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		421AD84E2CB0019D00BD6B17 /* Luigi Mansion Real Edition */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 421AD87C2CB001A000BD6B17 /* Build configuration list for PBXNativeTarget "Luigi Mansion Real Edition" */;
+			buildPhases = (
+				421AD84B2CB0019D00BD6B17 /* Sources */,
+				421AD84C2CB0019D00BD6B17 /* Frameworks */,
+				421AD84D2CB0019D00BD6B17 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Luigi Mansion Real Edition";
+			productName = "Luigi Mansion Real Edition";
+			productReference = 421AD84F2CB0019D00BD6B17 /* Luigi Mansion Real Edition.app */;
+			productType = "com.apple.product-type.application";
+		};
+		421AD8672CB001A000BD6B17 /* Luigi Mansion Real EditionTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 421AD87F2CB001A000BD6B17 /* Build configuration list for PBXNativeTarget "Luigi Mansion Real EditionTests" */;
+			buildPhases = (
+				421AD8642CB001A000BD6B17 /* Sources */,
+				421AD8652CB001A000BD6B17 /* Frameworks */,
+				421AD8662CB001A000BD6B17 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				421AD86A2CB001A000BD6B17 /* PBXTargetDependency */,
+			);
+			name = "Luigi Mansion Real EditionTests";
+			productName = "Luigi Mansion Real EditionTests";
+			productReference = 421AD8682CB001A000BD6B17 /* Luigi Mansion Real EditionTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		421AD8712CB001A000BD6B17 /* Luigi Mansion Real EditionUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 421AD8822CB001A000BD6B17 /* Build configuration list for PBXNativeTarget "Luigi Mansion Real EditionUITests" */;
+			buildPhases = (
+				421AD86E2CB001A000BD6B17 /* Sources */,
+				421AD86F2CB001A000BD6B17 /* Frameworks */,
+				421AD8702CB001A000BD6B17 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				421AD8742CB001A000BD6B17 /* PBXTargetDependency */,
+			);
+			name = "Luigi Mansion Real EditionUITests";
+			productName = "Luigi Mansion Real EditionUITests";
+			productReference = 421AD8722CB001A000BD6B17 /* Luigi Mansion Real EditionUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		421AD8472CB0019D00BD6B17 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					421AD84E2CB0019D00BD6B17 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					421AD8672CB001A000BD6B17 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = 421AD84E2CB0019D00BD6B17;
+					};
+					421AD8712CB001A000BD6B17 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = 421AD84E2CB0019D00BD6B17;
+					};
+				};
+			};
+			buildConfigurationList = 421AD84A2CB0019D00BD6B17 /* Build configuration list for PBXProject "Luigi Mansion Real Edition" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 421AD8462CB0019D00BD6B17;
+			productRefGroup = 421AD8502CB0019D00BD6B17 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				421AD84E2CB0019D00BD6B17 /* Luigi Mansion Real Edition */,
+				421AD8672CB001A000BD6B17 /* Luigi Mansion Real EditionTests */,
+				421AD8712CB001A000BD6B17 /* Luigi Mansion Real EditionUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		421AD84D2CB0019D00BD6B17 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				421AD85E2CB0019D00BD6B17 /* Main.storyboard in Resources */,
+				421AD8552CB0019D00BD6B17 /* GameScene.sks in Resources */,
+				421AD8602CB001A000BD6B17 /* Assets.xcassets in Resources */,
+				421AD8632CB001A000BD6B17 /* LaunchScreen.storyboard in Resources */,
+				421AD8572CB0019D00BD6B17 /* Actions.sks in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		421AD8662CB001A000BD6B17 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		421AD8702CB001A000BD6B17 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		421AD84B2CB0019D00BD6B17 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				421AD8592CB0019D00BD6B17 /* GameScene.swift in Sources */,
+				421AD85B2CB0019D00BD6B17 /* GameViewController.swift in Sources */,
+				421AD8862CB003DD00BD6B17 /* QRCodeScannerViewController.swift in Sources */,
+				421AD8532CB0019D00BD6B17 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		421AD8642CB001A000BD6B17 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				421AD86D2CB001A000BD6B17 /* Luigi_Mansion_Real_EditionTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		421AD86E2CB001A000BD6B17 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				421AD8792CB001A000BD6B17 /* Luigi_Mansion_Real_EditionUITestsLaunchTests.swift in Sources */,
+				421AD8772CB001A000BD6B17 /* Luigi_Mansion_Real_EditionUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		421AD86A2CB001A000BD6B17 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 421AD84E2CB0019D00BD6B17 /* Luigi Mansion Real Edition */;
+			targetProxy = 421AD8692CB001A000BD6B17 /* PBXContainerItemProxy */;
+		};
+		421AD8742CB001A000BD6B17 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 421AD84E2CB0019D00BD6B17 /* Luigi Mansion Real Edition */;
+			targetProxy = 421AD8732CB001A000BD6B17 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		421AD85C2CB0019D00BD6B17 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				421AD85D2CB0019D00BD6B17 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		421AD8612CB001A000BD6B17 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				421AD8622CB001A000BD6B17 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		421AD87A2CB001A000BD6B17 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		421AD87B2CB001A000BD6B17 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		421AD87D2CB001A000BD6B17 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 63S992XYYX;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Luigi-Mansion-Real-Edition-Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIStatusBarHidden = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Kitakyushu-kosen.Luigi-Mansion-Real-Edition";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		421AD87E2CB001A000BD6B17 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 63S992XYYX;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Luigi-Mansion-Real-Edition-Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIStatusBarHidden = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Kitakyushu-kosen.Luigi-Mansion-Real-Edition";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		421AD8802CB001A000BD6B17 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 63S992XYYX;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Kitakyushu-kosen.Luigi-Mansion-Real-EditionTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Luigi Mansion Real Edition.app/Luigi Mansion Real Edition";
+			};
+			name = Debug;
+		};
+		421AD8812CB001A000BD6B17 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 63S992XYYX;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Kitakyushu-kosen.Luigi-Mansion-Real-EditionTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Luigi Mansion Real Edition.app/Luigi Mansion Real Edition";
+			};
+			name = Release;
+		};
+		421AD8832CB001A000BD6B17 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 63S992XYYX;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Kitakyushu-kosen.Luigi-Mansion-Real-EditionUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Luigi Mansion Real Edition";
+			};
+			name = Debug;
+		};
+		421AD8842CB001A000BD6B17 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 63S992XYYX;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Kitakyushu-kosen.Luigi-Mansion-Real-EditionUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Luigi Mansion Real Edition";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		421AD84A2CB0019D00BD6B17 /* Build configuration list for PBXProject "Luigi Mansion Real Edition" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				421AD87A2CB001A000BD6B17 /* Debug */,
+				421AD87B2CB001A000BD6B17 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		421AD87C2CB001A000BD6B17 /* Build configuration list for PBXNativeTarget "Luigi Mansion Real Edition" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				421AD87D2CB001A000BD6B17 /* Debug */,
+				421AD87E2CB001A000BD6B17 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		421AD87F2CB001A000BD6B17 /* Build configuration list for PBXNativeTarget "Luigi Mansion Real EditionTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				421AD8802CB001A000BD6B17 /* Debug */,
+				421AD8812CB001A000BD6B17 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		421AD8822CB001A000BD6B17 /* Build configuration list for PBXNativeTarget "Luigi Mansion Real EditionUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				421AD8832CB001A000BD6B17 /* Debug */,
+				421AD8842CB001A000BD6B17 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 421AD8472CB0019D00BD6B17 /* Project object */;
+}
